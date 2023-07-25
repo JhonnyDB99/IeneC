@@ -1,36 +1,9 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <title>Conversor de Moeda</title>
-    <style>
-      /*Css*/
-      
-      /*Necessário separar html de Css*/
-      body {
-        font-family: Arial, sans-serif;
-      }
-
-      .converter-container {
-        margin: 50px auto;
-        width: 300px;
-        text-align: center;
-      }
-
-      .converter-container input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-      }
-
-      .converter-container button {
-        padding: 10px 20px;
-      }
-    </style>
   </head>
-
-  /*Corpo*/
-  
+  <link rel="stylesheet" href="Style.css" />
   <body>
     <div class="converter-container">
       <h2>Conversor de Moeda</h2>
@@ -39,11 +12,12 @@
       <p id="resultado"></p>
     </div>
 
-    /*Conversor de Moedas*/
+    <!--*Conversor de Moedas -->
+
     <script>
       function converter() {
         var valorIene = document.getElementById("valorIene").value;
-        var taxaDeCambio = 0.06; // Taxa de câmbio de iene para real (exemplo)
+        var taxaDeCambio = 0.03; // Taxa de câmbio de iene para real (exemplo)
 
         var valorReal = valorIene * taxaDeCambio;
 
