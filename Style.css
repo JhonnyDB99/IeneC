@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
 }
@@ -13,7 +12,8 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-   background-color: white;
+  background-color: whitesmoke;
+  border-radius: 10%;
 }
 
 .converter-container button {
